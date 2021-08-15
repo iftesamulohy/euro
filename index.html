@@ -8,48 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="spin">Spin</button>
-	<span class="arrow"></span>
-<div class="container">
-	<div class="one">
-        <img src="images/1.png" alt="">
-    </div>
-	<div class="two">
-        <img src="images/2.png" alt="">
-    </div>
-	<div class="three">
-        <img src="images/3.png" alt="">
-    </div>
-	<div class="four">
-        <img src="images/4.png" alt="">
-    </div>
-	<div class="five">
-        <img src="images/5.png" alt="">
-    </div>
-	<div class="six">
-        <img src="images/6.png" alt="">
-    </div>
-	<div class="seven">
-        <img src="images/7.png" alt="">
-    </div>
-	<div class="eight">
-        <img src="images/8.png" alt="">
-    </div>
-    <div class="nine">
-        <img src="images/9.png" alt="">
-    </div>
-    <div class="ten">
-        <img src="images/10.png" alt="">
-    </div>
-    <script>
-        let container = document.querySelector(".container");
-let btn = document.getElementById("spin");
-let number = Math.ceil(Math.random() * 1000);
-
-btn.onclick = function () {
-	container.style.transform = "rotate(" + number + "deg)";
-	number += Math.ceil(Math.random() * 1000);
-}
-    </script>
+    <iframe src="https://pickerwheel.com/emb?choices=Spain,Germany,Belgium,England,Italy,Portugal,France,Croatia,Sweden,Wales&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
 </body>
 </html>
